@@ -1,0 +1,18 @@
+# NETScope configuration
+# Every path, channel index and parameter lives here, never in the code.
+
+data:
+  path: data/Test_dataset-V1.tif
+  # Channel order in the TIFF (axes are TCYX)
+  channel_dna: 0        # DAPI - stains all nuclei, membrane permeable
+  channel_release: 1    # FITC / SYTOX Green - only lights up on DNA release
+  # Acquisition metadata, read from the ImageJ/Nikon header
+  frame_interval_s: 302.1   # measured average; nominal setting was 300 s
+  pixel_size_um: 0.325
+  source: >
+    Crop (300x300) of 1_WT-0-1.nd2, widefield fluorescence,
+    Nikon Ti + Hamamatsu Flash4.0, NA 0.75.
+
+output:
+  figures: results/figures
+  tables: results/tables

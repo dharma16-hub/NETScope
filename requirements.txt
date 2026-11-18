@@ -1,0 +1,7 @@
+numpy>=2.0
+pandas>=2.0
+matplotlib>=3.8
+tifffile>=2024.1.30
+scikit-image>=0.26
+pyyaml>=6.0
+pytest>=8.0
