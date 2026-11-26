@@ -10,7 +10,7 @@ averages together.
 
 ![per-cell trajectories](results/figures/02_traces.png)
 
-## The data
+## The data 
 
 A 300 x 300 px crop of a widefield fluorescence time-lapse of primary human
 neutrophils, from [addoyle1D/CPCB_NETosis](https://github.com/addoyle1D/CPCB_NETosis),
